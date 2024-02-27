@@ -196,6 +196,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"cs229-lecture5.md": {
+	id: "cs229-lecture5.md";
+  slug: "cs229-lecture5";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 };
 
 	};

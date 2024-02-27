@@ -74,11 +74,11 @@ $h(x) = \displaystyle\sum_{i=0}^{d} \theta_{i}x_{i} = \theta^T{x}$, where $\thet
 Given a training set, how can we learn the parameters $\theta$? One method seems to be to make $h(x)$ as close to $y$, at least for the training examples we have available.
 
 ### Cost function
-To be able get $h(x)$ as close to $y$ as possible we need a way to measure the closeness through least means squared (LMS):
+To be able get $h(x)$ as close to $y$ as possible we need a way to measure the closeness, such as through least means squared (LMS):
 
 $J(\theta) = \displaystyle\frac{1}{2} \displaystyle\sum_{i=1}^{n}(h_{\theta}(x^{(i)}) - y^{(i)})^2$
 
-We will show later on why LMS it is thought to be the best method.
+We will show later on why LMS is thought to be the best method.
 
 ### Gradient descent
 
